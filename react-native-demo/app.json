@@ -24,11 +24,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "package": "com.developer.to-do-app"
+      },
+      "package": "com.sergeyworld.reactnativedemo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecd4f1a7-98b8-48b8-b2b0-31b8951f41ab"
+      }
     }
   }
 }
